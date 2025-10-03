@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Tribute to Tom Mboya</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tribute to Tom Mboya</h1>
+            <p>"A visionary leader and architect of modern Kenya</p>
+        </header>
+        <main>
+            <section class="intro">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tom_Mboya_1962_%28cropped%29.jpg/250px-Tom_Mboya_1962_%28cropped%29.jpg"alt="Tom Mboya">
+                <p>Tom Joseph Mboya (1930-1969) was a prominent kenyan trade unionist, educationist, Pan-Africanist, and statesman. He played a vital role in Kenya's struggle for independence and later in shaping the nations economic and social development.</p>
+            </section>
+            <section class="achievements">
+                <h2>Key Achievements</h2>
+                <ul>
+                    <li> One of the youngest and most influential leaders in Kenya's independence movement.</li>
+                    <li>Organized the"Airlift Africa" program, which sent hundreds of East African students to study in the United States</li>
+                    <li>Served as Minister for Justice and Constitutional Affairs, and later as Minister for Economic Planning and Development.</li>
+                    <li>Instrumental in drafting policies that laid the foundation for Kenya's development</li>
+                </ul>
+            </section>
+            <section class="quote">
+                <blockquote>"We must treat our people as a resource to be developed, not as a burden to be managed."</blockquote>
+            </section>
+            <section class="more info">
+                <p>Learn more about him on <a href="https://en.wikipedia.org/wiki/Tom_Mboya" target="_blank">Wikipedia</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>Tribute of Tom Mboya by Emmanuel Mwega</p>
+        </footer>
+    </body>
+</DOCTYPE>
+
+
+
+body{
+    font-family: Arial, sams-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header{
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+header p{
+    font-style: italic;
+}
+
+.intro{
+    text-align: center;
+    padding: 20px;
+}
+
+.intro img{
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.achievements{
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.achievements h2{
+    color: #2c3e50;
+}
+
+.quote{
+    background: #2980b9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.more-info{
+    text-align: center;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+}
